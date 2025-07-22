@@ -8,11 +8,11 @@ export default function Header() {
           style={{ height: '100px', width: 'auto' }}/>
         <nav>
           <ul className="flex gap-15 text-lg">
-            <li><a href="#que" className="hover:underline text-neutral-800 text-sm">¿QUÉ HACEMOS?</a></li>
-            <li><a href="#porque" className="hover:underline text-gray-800 text-sm" >¿POR QUÉ LO HACEMOS?</a></li>
-            <li><a href="#como" className="hover:underline text-gray-800 text-sm">¿CÓMO LO HACEMOS?</a></li>
-            <li><a href="#diagnostico" className="hover:underline text-gray-800 text-sm">DIAGNÓSTICO PYME</a></li>
-            <li><a href="#contacto" className="hover:underline text-gray-800 text-sm">CONTACTO</a></li>
+            <li><a href="#que" className="hover:underline text-gray-800 text-sm font-serif">¿QUÉ HACEMOS?</a></li>
+            <li><a href="#porque" className="hover:underline text-gray-800 text-sm font-serif" >¿POR QUÉ LO HACEMOS?</a></li>
+            <li><a href="#como" className="hover:underline text-gray-800 text-sm font-serif">¿CÓMO LO HACEMOS?</a></li>
+            <li><a href="#diagnostico" className="hover:underline text-gray-800 text-sm font-serif">DIAGNÓSTICO PYME</a></li>
+            <li><a href="#contacto" className="hover:underline text-gray-800 text-sm font-serif">CONTACTO</a></li>
           </ul>
         </nav>
       </div>
