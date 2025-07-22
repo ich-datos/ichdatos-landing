@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="sticky top-0 bg-gray-100 py-0 px-4 shadow-md z-50 opacity-95">
+    <header className="sticky top-0 bg-gray-100 py-0 px-0 shadow-md z-50 opacity-95">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <img 
           src="/logo.png" 
