@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 export default function About() {
   return (
     <section
-      id="sobre"
-      className="bg-slate-800 py-12 px-10 border-t border-gray-600"
+      id="que"
+      className="bg-slate-500 py-12 px-10 border-t border-gray-600"
     >
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">

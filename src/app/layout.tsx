@@ -9,7 +9,7 @@ const nunito = Inter({
 
 
 export const metadata: Metadata = {
-  title: "ICH | Soluciones para la gestión de datos en PyME's",
+  title: "Tu PYME, conectada.",
   description: "Powered by ICH",
 };
 
