@@ -1,19 +1,24 @@
-// components/Hero.jsx
+// components/Hero.tsx
 export default function Hero() {
   return (
-    <section className="h-[90vh] flex flex-col justify-center items-center text-center px-25 bg-gray-950">
-      <h2 className="text-4xl md:text-3xl mb-4 text-gray-100 font-bold font-serif">
-        TU PYME YA TIENE TODO. NOSOTROS LO CONECTAMOS.
+    <section className="w-full min-h-[90vh] flex flex-col justify-center items-center text-center px-4 md:px-8 bg-gray-950 overflow-hidden">
+      
+      <h2 className="text-white text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-wide leading-tight max-w-4xl">
+        TU PYME YA TIENE TODO. <br className="hidden sm:block" /> NOSOTROS LO CONECTAMOS.
       </h2>
-      <p className="text-lg md:text-lg py-4 mb-35 max-w-1x2 text-gray-300 font-serif">
+      
+      <p className="text-gray-300 text-base sm:text-lg md:text-xl mt-6 max-w-2xl leading-relaxed">
         Ponemos a trabajar tus datos para que tomes decisiones asertivas.
       </p>
-      <a
-        href="#diagnostico"
-        className="bg-[#103A50] text-white px-6 py-3 rounded-full hover:bg-[#103A30] transition font-serif"
-      >
-        Comenzá tu diagnóstico gratuito
-      </a>
+      
+      <div className="mt-10 sm:mt-12">
+        <a
+          href="#diagnostico"
+          className="bg-[#0d3b66] hover:bg-[#145DA0] text-white font-semibold rounded-full px-8 py-3 sm:px-10 sm:py-4 shadow-lg transition duration-300"
+        >
+          Comenzá tu diagnóstico gratuito
+        </a>
+      </div>
     </section>
   );
 }

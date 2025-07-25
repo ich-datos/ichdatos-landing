@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-const nunito = Inter({
+// Cambiá el nombre de 'nunito' a 'inter' (ya que es la fuente Inter)
+const inter = Inter({
   subsets: ["latin"],
-  weight: ['300', '800'], // o los pesos que necesites,
-});
-
+  weight: ['300', '800'], // podés sumar '400', '700' si querés más pesos
+  });
 
 export const metadata: Metadata = {
   title: "Tu PYME, conectada.",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="es" className={nunito.className}>
+    <html lang="es" className={inter.className}>
       <body>{children}</body>
     </html>
   );
