@@ -50,7 +50,7 @@ export default function Header() {
 
       {/* Menú móvil desplegable */}
       {isOpen && (
-        <div className="md:hidden bg-slate-100 px-4 pb-4">
+        <div className="md:hidden bg-white shadow-lg rounded-md mx-4 mt-2 px-4 pb-4 transition-all duration-300">
           <ul className="flex flex-col gap-4 text-base">
             <li><a href="#que" className="hover:underline text-gray-800 font-serif" onClick={() => setIsOpen(false)}>¿Qué hacemos?</a></li>
             <li><a href="#porque" className="hover:underline text-gray-800 font-serif" onClick={() => setIsOpen(false)}>¿Por qué lo hacemos?</a></li>
