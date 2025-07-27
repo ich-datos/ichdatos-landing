@@ -14,7 +14,6 @@ export default function Header() {
           alt="Logo ICH" 
           className="h-12 md:h-16 w-auto"
         />
-
         {/* Botón hamburguesa solo visible en móvil */}
         <button 
           onClick={() => setIsOpen(!isOpen)}
@@ -50,7 +49,7 @@ export default function Header() {
 
       {/* Menú móvil desplegable */}
       {isOpen && (
-        <div className="md:hidden bg-white shadow-lg rounded-md mx-4 mt-2 px-4 pb-4 transition-all duration-300">
+        <div className="md:hidden bg-white shadow-lg rounded-md mx-4 mt-2 px-4 pb-4 transition-transform transform duration-300 ease-out animate-slideDown">
           <ul className="flex flex-col gap-4 text-base">
             <li><a href="#que" className="hover:underline text-gray-800 font-serif" onClick={() => setIsOpen(false)}>¿Qué hacemos?</a></li>
             <li><a href="#porque" className="hover:underline text-gray-800 font-serif" onClick={() => setIsOpen(false)}>¿Por qué lo hacemos?</a></li>
@@ -58,7 +57,7 @@ export default function Header() {
             <li><a href="#diagnostico" className="hover:underline text-gray-800 font-serif" onClick={() => setIsOpen(false)}>Diagnóstico PYME</a></li>
             <li><a href="#contacto" className="hover:underline text-gray-800 font-serif" onClick={() => setIsOpen(false)}>Contacto</a></li>
           </ul>
-        </div>
+         </div>
       )}
     </header>
   );
